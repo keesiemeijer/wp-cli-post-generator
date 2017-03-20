@@ -1,0 +1,65 @@
+{
+    "name": "keesiemeijer/wp-cli-post-generator",
+    "description": "WP-CLI commands to generate posts with images and terms",
+    "keywords": [
+        "wordpress"
+    ],
+    "type": "wordpress-plugin",
+    "homepage": "https://github.com/keesiemeijer/wp-cli-post-generator",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "keesiemeijer",
+            "homepage": "https://github.com/keesiemeijer",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/keesiemeijer/wp-cli-post-generator/issues"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "keesiemeijer/term-gen",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/keesiemeijer/term-gen.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "trepmal/post-gen",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/trepmal/post-gen.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "trepmal/image-gen",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/trepmal/image-gen.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer/installers": "~1.2",
+        "keesiemeijer/term-gen": "master",
+        "trepmal/post-gen": "master",
+        "trepmal/image-gen": "master"
+    }
+}
