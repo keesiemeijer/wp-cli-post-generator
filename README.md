@@ -2,7 +2,7 @@
 
 WP-CLI commands to generate dummy posts with images and terms.
 
-This WordPress plugin is a convenient way to use the [WP-CLI](http://wp-cli.org/) all the commands from these plugins. 
+This WordPress plugin is a convenient way to use all the [WP-CLI](http://wp-cli.org/) commands from these plugins. 
 * [Image Gen by trepmal](https://github.com/trepmal/image-gen/)
 * [Post Gen by trepmal](https://github.com/trepmal/post-gen/)
 * [Term Gen by keesiemeijer](https://github.com/keesiemeijer/term-gen)
